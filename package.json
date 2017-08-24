@@ -1,0 +1,45 @@
+{
+  "name": "wp-plugin-info",
+  "description": "Get Plugin Info via WordPress.org API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oknoorap/wp-plugin-info.git"
+  },
+  "keywords": [
+    "wordpress",
+    "wordpress-plugin",
+    "wordpress-org-api"
+  ],
+  "author": "oknoorap",
+  "bugs": {
+    "url": "https://github.com/oknoorap/wp-plugin-info/issues"
+  },
+  "homepage": "https://github.com/oknoorap/wp-plugin-info#readme",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "xo": "^0.18.2"
+  },
+  "ava": {
+    "files": [
+      "test.js"
+    ]
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "axios": "^0.16.2",
+    "striptags": "^3.0.1"
+  }
+}
